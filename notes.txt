@@ -1,0 +1,13 @@
+
+tones@localhost sf_projects]$ curl -i -H "Content-Type: application/json" -X POST -d '{"name": "Tony", "age": 99, "occupation": "Hairdresser"}' http://localhost:5000/user/Joan
+HTTP/1.0 201 CREATED
+Content-Type: application/json
+Content-Length: 73
+Server: Werkzeug/0.11.11 Python/3.4.5
+Date: Sat, 31 Mar 2018 21:28:54 GMT
+
+{
+    "age": "99",
+    "name": "Joan",
+    "occupation": "Hairdresser"
+}
